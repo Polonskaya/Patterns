@@ -64,11 +64,8 @@ namespace Patterns
         }
         private string AddFrame()
         {
-            Frame frame = Frame.GetFreeFrame();
-            if (frame != null)
-                return "\nAdding frame :\n" + frame.Name + ", " + frame.Description;
-            else
-                return "";
+            Frame frame = new Frame();
+            return "\nAdding frame :\n" + frame.Name + ", " + frame.Description;
         }
 
         // Шаблонный метод
@@ -178,28 +175,14 @@ namespace Patterns
 
     class Frame
     {
-        private static bool IsAddedToOrder = false;
         private string name;
         private double cost;
         private string description;
-        private Frame()
+        public  Frame()
         {
             this.name = "Casual Frame";
             this.cost = 0.0;
             this.description = "Standart Free Frame";
-        }
-
-        public static Frame GetFreeFrame()
-        {
-            if (!IsAddedToOrder)
-            {
-                IsAddedToOrder = true;
-                return new Frame();
-            }
-            else
-            {
-                return null;
-            }
         }
         public string Name
         {
