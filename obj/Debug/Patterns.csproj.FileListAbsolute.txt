@@ -1,0 +1,6 @@
+C:\Users\Игорь\Documents\Visual Studio 2015\Projects\Patterns\Patterns\bin\Debug\Patterns.exe.config
+C:\Users\Игорь\Documents\Visual Studio 2015\Projects\Patterns\Patterns\bin\Debug\Patterns.exe
+C:\Users\Игорь\Documents\Visual Studio 2015\Projects\Patterns\Patterns\bin\Debug\Patterns.pdb
+C:\Users\Игорь\Documents\Visual Studio 2015\Projects\Patterns\Patterns\obj\Debug\Patterns.csprojResolveAssemblyReference.cache
+C:\Users\Игорь\Documents\Visual Studio 2015\Projects\Patterns\Patterns\obj\Debug\Patterns.exe
+C:\Users\Игорь\Documents\Visual Studio 2015\Projects\Patterns\Patterns\obj\Debug\Patterns.pdb
